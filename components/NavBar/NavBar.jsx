@@ -67,9 +67,9 @@ const NavBar = () => {
   }
 
   const openSideBar = () =>{
-    if(!openSideBar){
+    if (!openSideMenu) {
       setOpenSideMenu(true);
-    }else{
+    } else {
       setOpenSideMenu(false);
     }
   }
